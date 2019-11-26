@@ -37,3 +37,35 @@
 
 # References
 - https://github.com/talyssonoc/node-api-boilerplate
+- https://gist.github.com/branneman/8048520
+
+# Debug
+
+## nodemon
+
+```
+npm i -g nodemon
+```
+- Start Debugging from vscode
+
+## Attach
+
+```
+npm run debug
+```
+- Start Debugging from vscode
+
+## Attach by Process ID
+
+```
+npm run debug
+```
+- Start Debugging from vscode
+
+## Launch Program
+
+- Start Debugging from vscode
+
+## Launch via NPM
+
+- Start Debugging from vscode

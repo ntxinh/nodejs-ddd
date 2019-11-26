@@ -17,7 +17,7 @@
     "heroku-postbuild": "NODE_ENV=production NODE_PATH=. sequelize db:migrate --url=$DATABASE_URL",
     "pm2": "pm2",
     "cleanup": "node scripts/cleanup.js",
-    "debug": "node --inspect-brk index.js"
+    "debug": "cross-env NODE_PATH=. NODE_ENV=development nodemon --inspect index.js"
   },
   "_moduleAliases": {
     "~root": "."
