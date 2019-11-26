@@ -1,4 +1,4 @@
-const User = require('src/domain/user/User');
+const User = require('~root/src/domain/user/User');
 
 const SequelizeUserMapper = {
   toEntity({ dataValues }) {

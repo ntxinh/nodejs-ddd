@@ -1,4 +1,4 @@
-const Operation = require('src/app/Operation');
+const Operation = require('~root/src/app/Operation');
 
 class UpdateUser extends Operation {
   constructor({ usersRepository }) {

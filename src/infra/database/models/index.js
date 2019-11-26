@@ -1,6 +1,6 @@
-const { ModelsLoader } = require('src/infra/sequelize');
+const { ModelsLoader } = require('~root/src/infra/sequelize');
 const Sequelize = require('sequelize');
-const { db: config } = require('config');
+const { db: config } = require('~root/config');
 
 if(config) {
   const sequelize = new Sequelize(config);

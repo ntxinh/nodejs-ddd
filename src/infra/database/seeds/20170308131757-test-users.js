@@ -1,6 +1,6 @@
 'use strict';
 
-const dataFaker = require('src/infra/support/dataFaker');
+const dataFaker = require('~root/src/infra/support/dataFaker');
 
 module.exports = {
   up: function (queryInterface) {

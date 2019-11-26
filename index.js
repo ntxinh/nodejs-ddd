@@ -1,4 +1,5 @@
-const container = require('src/container');
+require('module-alias/register');
+const container = require('~root/src/container');
 
 const app = container.resolve('app');
 
