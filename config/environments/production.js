@@ -3,8 +3,11 @@ module.exports = {
     port: process.env.PORT
   },
   logging: {
-    appenders: [
-      { type: 'console', layout: { type: 'basic' } }
-    ]
+    appenders: {
+      out: { type: 'console' },
+    },
+    categories: {
+      default: { appenders: ['out'], level: 'info' }
+    }
   }
 };
