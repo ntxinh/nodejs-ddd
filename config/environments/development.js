@@ -6,9 +6,12 @@ module.exports = {
     port: 3000
   },
   logging: {
-    appenders: [
-      { type: 'console' },
-      { type: 'file', filename: logPath }
-    ]
+    appenders: {
+      out: { type: 'console' },
+      app: { type: 'file', filename: logPath }
+    },
+    categories: {
+      default: { appenders: ['out', 'app'], level: 'info' }
+    }
   }
 };
