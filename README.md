@@ -35,10 +35,6 @@
 - [Istanbul](https://www.npmjs.com/package/istanbul) + [NYC](https://www.npmjs.com/package/nyc)
 - [ESLint](https://www.npmjs.com/package/eslint)
 
-# References
-- https://github.com/talyssonoc/node-api-boilerplate
-- https://gist.github.com/branneman/8048520
-
 # Debug
 
 ## nodemon
@@ -69,3 +65,8 @@ npm run debug
 ## Launch via NPM
 
 - Start Debugging from vscode
+
+# References
+- https://github.com/talyssonoc/node-api-boilerplate
+- [Better local require paths for Node.js](https://gist.github.com/branneman/8048520)
+- [Launch.json attributes](https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes)
