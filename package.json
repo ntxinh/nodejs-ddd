@@ -42,7 +42,7 @@
     "method-override": "^3.0.0",
     "module-alias": "^2.2.2",
     "morgan": "^1.9.1",
-    "pm2": "^4.2.0",
+    "pm2": "^5.2.0",
     "sequelize": "^5.21.2",
     "sequelize-cli": "^5.5.1",
     "structure": "^1.8.0",
