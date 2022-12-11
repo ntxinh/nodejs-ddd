@@ -35,7 +35,7 @@
     "del": "^5.1.0",
     "dotenv": "^8.2.0",
     "eslint": "^6.7.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-status-monitor": "^1.2.7",
     "http-status": "^1.4.1",
     "log4js": "^6.1.0",
